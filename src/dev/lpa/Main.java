@@ -29,7 +29,7 @@ public class Main {
 
 class Bank{
     String name;
-    ArrayList<Customer> customerList;
+    private ArrayList<Customer> customerList;
 
     public Bank(String name) {
         this.name = name;
